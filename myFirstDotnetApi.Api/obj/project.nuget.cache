@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "JrRNh7r5nuE=",
+  "success": true,
+  "projectFilePath": "/Users/joe/Desktop/dotnet-API-practice/myFirstDotnetApi.Api/myFirstDotnetApi.Api.csproj",
+  "expectedPackageFiles": [
+    "/Users/joe/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/joe/.nuget/packages/minimalapis.extensions/0.11.0/minimalapis.extensions.0.11.0.nupkg.sha512",
+    "/Users/joe/.nuget/packages/minivalidation/0.8.0/minivalidation.0.8.0.nupkg.sha512"
+  ],
+  "logs": []
+}

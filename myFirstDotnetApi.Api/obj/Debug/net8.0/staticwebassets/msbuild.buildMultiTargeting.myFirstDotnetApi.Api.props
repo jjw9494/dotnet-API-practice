@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/myFirstDotnetApi.Api.props" />
+</Project>
