@@ -1,10 +1,21 @@
-﻿using System.Net.Http.Headers;
+﻿
 using myFirstDotnetApi.Api.Dtos;
 namespace myFirstDotnetApi.Api;
+using System;
+using System.Threading.Tasks;
+using System.Net.Http;
 
 public static class Endpoints
 {
 const string GetGameName = "GetGame";
+
+            public class Product
+{
+    public string? Id { get; set; }
+    public string? Name { get; set; }
+    public decimal? Price { get; set; }
+    public string? Category { get; set; }
+}
 
 static readonly HttpClient client = new HttpClient(); 
 private static readonly List<GameDto> games = [
@@ -80,38 +91,13 @@ private static readonly List<GameDto> games = [
             games.RemoveAll(x => x.Id == id);
         });
 
-        group.MapGet("/joke", () => {
-         string apiAddress = "https://v2.jokeapi.dev/";
+        group.MapGet("/joke", async () => {
 
-        async void asyncasyncRunAsync(){
-            
-            client.BaseAddress = new Uri("http://localhost:5031");
-            client.DefaultRequestHeaders.Accept.Clear();
-            client.DefaultRequestHeaders.Accept.Add(
-            new MediaTypeWithQualityHeaderValue("application/json"));
-
-            HttpResponseMessage response = await client.GetAsync(apiAddress);
-
-            public class Product
-{
-    public string Id { get; set; }
-    public string Name { get; set; }
-    public decimal Price { get; set; }
-    public string Category { get; set; }
-}
-
-            Product product = null;
-
-            if (response.IsSuccessStatusCode)
-            {
-                product = await response.Content.ReadAsAsync<Product>();
-            }
-            return product;
+            var response = await client.GetAsync("https://jokeapi.dev/joke/Any?format=txt&type=single&blacklistFlags=nsfw,racist,sexist&lang=en");
+            var joke = await response.Content.ReadAsStringAsync();
+            return joke;
                 }
-
-                string joke = 
-                return response;
-                });
+                );
 
                 return group;
             }

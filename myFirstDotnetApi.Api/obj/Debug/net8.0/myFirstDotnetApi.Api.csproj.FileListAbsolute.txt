@@ -30,3 +30,6 @@
 /Users/joe/Desktop/dotnet-API-practice/myFirstDotnetApi.Api/obj/Debug/net8.0/myFirstDotnetApi.Api.csproj.AssemblyReference.cache
 /Users/joe/Desktop/dotnet-API-practice/myFirstDotnetApi.Api/obj/Debug/net8.0/myFirstDotnetApi.Api.MvcApplicationPartsAssemblyInfo.cs
 /Users/joe/Desktop/dotnet-API-practice/myFirstDotnetApi.Api/obj/Debug/net8.0/myFirstD.B958707E.Up2Date
+/Users/joe/Desktop/dotnet-API-practice/myFirstDotnetApi.Api/bin/Debug/net8.0/System.Net.Http.Formatting.dll
+/Users/joe/Desktop/dotnet-API-practice/myFirstDotnetApi.Api/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/joe/Desktop/dotnet-API-practice/myFirstDotnetApi.Api/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
