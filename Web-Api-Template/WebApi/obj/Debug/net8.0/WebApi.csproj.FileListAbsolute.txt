@@ -32,3 +32,8 @@
 /Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/obj/Debug/net8.0/WebApi.pdb
 /Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/obj/Debug/net8.0/WebApi.genruntimeconfig.cache
 /Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/obj/Debug/net8.0/ref/WebApi.dll
+/Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/bin/Debug/net8.0/System.Net.Http.Formatting.dll
+/Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/bin/Debug/net8.0/System.Web.Http.dll
+/Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/bin/Debug/net8.0/System.Web.Http.WebHost.dll
+/Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/bin/Debug/net8.0/Newtonsoft.Json.dll
+/Users/joe/Desktop/dotnet-API-practice/Web-Api-Template/WebApi/bin/Debug/net8.0/Newtonsoft.Json.Bson.dll
